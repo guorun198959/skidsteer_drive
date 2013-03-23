@@ -1,0 +1,21 @@
+<package>
+  <description brief="skidsteer_drive">
+
+     skidsteer_drive
+
+  </description>
+  <author>Rufus</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/skidsteer_drive</url>
+  <depend package="roscpp"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="geometry_msgs"/>
+  <!--for odometry-->
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+
