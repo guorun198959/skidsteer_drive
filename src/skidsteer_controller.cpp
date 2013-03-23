@@ -67,8 +67,8 @@ namespace skidsteer_drive
         double chL;//Left chanel velocity.
         double chR;//Right chanel Velocity.
 
-        chL = (2*linear_velocity+angular_velocity*wheelBase)/(2*wheelRadius);
-        chR = (2*linear_velocity-angular_velocity*wheelBase)/(2*wheelRadius);
+        chR = (2*linear_velocity+angular_velocity*wheelBase)/(2*wheelRadius);
+        chL = (2*linear_velocity-angular_velocity*wheelBase)/(2*wheelRadius);
 
 
 	//Name the wheels and push on the velociteis for each.
